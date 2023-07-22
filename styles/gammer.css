@@ -57,9 +57,10 @@ nav li a {
 
 
 /* banner section start */
-body {
+header {
     background-image: url('../images/Group\ 14.png');
     background-repeat: no-repeat;
+    
 
 }
 
@@ -139,4 +140,21 @@ color: #FFF;
 font-size: 1.2rem;
 font-weight: 600;
 
+}
+/* mobile responsive */
+@media screen and (max-width: 576px) {
+    header{
+        
+    }
+    nav{
+        flex-direction: column;
+    }
+}
+
+/* tablet device */
+@media screen and (min-width: 576px) and (max-width: 960px) {
+    nav{
+        flex-direction: column;
+    }
+    padding: 50px;
 }
