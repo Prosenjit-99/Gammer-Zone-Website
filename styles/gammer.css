@@ -178,6 +178,8 @@ header {
 .teams-img-container {
     padding: 0 240px;
     border-radius: 16px;
+    display: flex;
+    gap: 20px;
 
 }
 
