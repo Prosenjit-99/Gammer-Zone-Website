@@ -60,7 +60,7 @@ nav li a {
 header {
     background-image: url('../images/Group\ 14.png');
     background-repeat: no-repeat;
-    
+
 
 }
 
@@ -94,21 +94,21 @@ header {
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    
+
 }
 
 .tex-1 {
     color: #534C64;
     font-size: 1.2rem;
     font-weight: 500;
-   
+
 }
 
 .tex-2 {
     color: #534C64;
     font-size: 1.2rem;
     font-weight: 500;
-    
+
 }
 
 .tex-3 {
@@ -129,32 +129,75 @@ header {
     font-weight: 600;
 
 }
-.btn-second{
+
+.btn-second {
     display: inline-flex;
-padding: 21px 40px;
-align-items: flex-start;
-gap: 10px;
-border-radius: 3rem;
-background: #4EC5F7;
-color: #FFF;
-font-size: 1.2rem;
-font-weight: 600;
+    padding: 21px 40px;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 3rem;
+    background: #4EC5F7;
+    color: #FFF;
+    font-size: 1.2rem;
+    font-weight: 600;
 
 }
+
+.teams-container-text {
+    text-align: center;
+    padding: 30px;
+}
+
+.text-content {
+    color: #0B0223;
+
+    font-size: 48px;
+    font-weight: 700;
+
+}
+
+.text-desgin {
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 48px;
+    font-weight: 700;
+
+}
+
+.text-p {
+    color: #534C64;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    padding: 0px;
+}
+
+.teams-img-container {
+    padding: 0 240px;
+    border-radius: 16px;
+  
+}
+
+
+
+
 /* mobile responsive */
 @media screen and (max-width: 576px) {
-    header{
-        
-    }
-    nav{
+    header {}
+
+    nav {
         flex-direction: column;
     }
 }
 
 /* tablet device */
 @media screen and (min-width: 576px) and (max-width: 960px) {
-    nav{
+    nav {
         flex-direction: column;
     }
+
     padding: 50px;
 }
